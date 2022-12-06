@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  do_ls:
+    image: alpine
+    volumes:
+      - "named_volume_a:/xdkek"
+volumes:
+  named_volume_a:
+    external: true
+
